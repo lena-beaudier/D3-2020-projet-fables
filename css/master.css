@@ -1,0 +1,123 @@
+html{
+  background: rgb(179, 139, 109););
+}
+
+
+
+
+
+
+header{
+  background: rgb(179, 139, 109);;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  text-align: center
+  font-family: sans-serif ;
+}
+h2 {
+  text-align: center
+  font-family: fantasy;
+}
+
+
+
+section{
+  box-shadow: -5px 15px 30px 0px rgba(0,0,0,0.62);
+  padding: 4em;
+  min-height: 60vh;
+}
+
+/*STYLES POUR NAVIGATION*/
+
+nav{
+  width: 100%;
+}
+
+li : hover {
+  color: black
+  text-decoration:none;
+  background-color: yellow;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+nav a {
+  display: block;
+  background: rgb(179, 139, 109);
+  padding: 10em;
+  color: beige;
+  font-weight: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+
+}
+
+h3{
+  font-size: 1.5em;
+  font-family: fantasy;
+  color: rgb(179, 139, 109);
+}
+
+/*STYLES POUR SECTION 01*/
+
+
+#section01{
+  background: url('images/fond.jpg')no-repeat top center;
+background-size: cover;
+background-attachment: fixed;
+display: flex;
+justify-content: center;
+align-items: center;
+font-family: fantasy;
+}
+
+#section01 h1{
+  color:rgb(255, 255, 225);
+  color : #fff;
+  font-size: 10em;
+  font-family: cursive;
+}
+
+#section02{
+  font-family: cursive;
+  color: lightgrey;
+  font-size: 2em;
+  font-weight: bold;
+
+}
+
+/* STYLES POUR SECTION03 */
+
+#section03 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  color: black;
+}
+
+
+#section04{
+  font-family: cursive;
+  color: lightgrey;
+  font-weight: bold;
+
+
+}
+.cat-info-card{
+
+  margin: 1em;
+  padding:1em;
+  background: rgb(255,255,255);
+  border-radius: 1em;
+  flex-basis: 320px;
+  flex-grow: 1;
+  color: darkgrey;
+}
